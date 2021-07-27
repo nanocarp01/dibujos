@@ -1,0 +1,71 @@
+
+/* ------------------------- */
+/* Estilos Generales */
+/* ------------------------- */
+
+body {
+     background-image: linear-gradient(135deg, #86715c 0%, #d1af92 100%);
+     background:-webkit-gradient(linear, 68% 52%, 69% 0%, from(#0059FF), to(#000D9D)) ;
+}
+
+.titulo {
+     color: cadetblue;
+     font-size: 40px;
+     text-transform: uppercase;
+     letter-spacing: 7px;
+}
+.flotante {
+     display:scroll;
+     position:fixed;
+     top:70px;
+     left:10px;
+      
+}
+.home{
+     max-height: 40%; 
+     max-width:40%;
+   
+}
+
+.galeria img {
+     box-shadow: 0 8px 10px -4px rgba(51, 182, 187, 0.6);
+     border-radius: 15px;
+}
+
+.materialbox-caption {
+     bottom: 30px;
+     right: 0;
+     width: 40%;
+     height: auto;
+     padding: 10px;
+     margin: auto;
+     background: #000;
+     box-shadow: 5px 5px #fff;
+     font-size: 20px;
+     color: #fff;
+     line-height: 28px;
+}
+
+.galeria .col {
+     margin-bottom: 20px;
+}
+
+
+
+@media screen and (max-width: 600px){
+     .materialbox-caption {
+          width: 90%;
+     }
+}
+
+@media screen and (max-width: 992px){
+.materialbox-caption {
+     width: 70%;
+}
+.flotante {
+     display:scroll;
+     position:absolute;
+     top:70px;
+     left:10px;
+}
+}
